@@ -13,9 +13,9 @@ class Product {
         return $this->price;
     }
 }
-$product1 = new Product('koelkast');
-$product2 = new Product('droger');
-$product3 = new Product('wasmachine');
+$product1 = new Product('Koelkast');
+$product2 = new Product('Droger');
+$product3 = new Product('Wasmachine');
 $product1->setPrice($_POST['prijs1']);
 $product2->setPrice($_POST['prijs2']);
 $product3->setPrice($_POST['prijs3']);
