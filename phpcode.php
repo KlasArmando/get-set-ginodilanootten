@@ -19,7 +19,7 @@ $product3 = new Product('wasmachine');
 $product1->setPrice($_POST['prijs1']);
 $product2->setPrice($_POST['prijs2']);
 $product3->setPrice($_POST['prijs3']);
-echo "Datum: " . (new DateTime())->format('d-m-Y') . "<br>";
+echo "Bon aangemaakt op: " . (new DateTime())->format('d-m-Y') . "<br>";
 echo $product1->name . ":  €" . $product1->price . "<br>";
 echo $product2->name . ":  €" . $product2->price . "<br>";
 echo $product3->name . ":  €" . $product3->price . "<br>";
